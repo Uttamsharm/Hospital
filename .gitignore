@@ -1,0 +1,103 @@
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.env
+.env.*.local
+
+# Logs
+logs
+*.log
+logs/*
+*.tlog
+*.pid
+*.gz
+*.out
+*.trace
+
+# Dependency directories
+bower_components/
+
+# Build output
+build/
+dist/
+out/
+.cache/
+.next/
+
+# Static assets
+coverage/
+public/static/
+public/*.map
+
+# IDE/Editor
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Miscellaneous
+*.swp
+*.lock
+*.bak
+*.tmp
+*.temp
+
+# TypeScript
+*.tsbuildinfo
+
+# Testing
+.jest/
+jest-output/
+cypress/videos/
+cypress/screenshots/
+
+# Linting
+.eslintcache
+.stylelintcache
+
+# Storybook
+storybook-static/
+
+# Firebase
+.firebaserc
+firebase-debug.log
+.firestore.indexes.json
+.firestore.rules
+.storage.rules
+
+# Chrome Extension-related
+src/assets/styles.css
+src/assets/locales/
+
+# Parcel
+.cache/
+
+# Yarn 2/3
+.pnp.*
+.yarn/*
+!.yarn/cache
+!.yarn/patches
+!.yarn/releases
+!.yarn/plugins
+!.yarn/sdks
+!.yarn/versions
+
+# Build Tools
+.next/
+.vite/
+vite.config.js
+webpack.config.js
+
+# Misc
+*.env.local
+*.local.js
+*.local.json
+__pycache__/
+*.sqlite3
